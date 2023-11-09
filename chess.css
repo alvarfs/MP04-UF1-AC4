@@ -1,0 +1,20 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(8, 62px);
+    grid-template-rows: repeat(8, 62px);
+    padding: 10px;
+}
+
+.red{
+    padding: 13.5px;
+    background-color: red;
+    font-size: 32px;
+    color: white;
+}
+
+.gray{
+    padding: 13.5px;
+    background-color: gray;
+    font-size: 32px;
+    color: white
+}
