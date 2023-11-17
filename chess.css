@@ -1,20 +1,16 @@
 .board{
     display: grid;
-    grid-template-columns: repeat(8, 62px);
-    grid-template-rows: repeat(8, 62px);
+    grid-template-columns: repeat(8, 64px);
+    grid-template-rows: repeat(8, 64px);
     padding: 10px;
 }
 
-.red{
-    padding: 13.5px;
-    background-color: red;
-    font-size: 32px;
+.board div{
+    font-size: 44px;
     color: white;
+    padding-top: 4px;
+    padding-left: 8px;
 }
 
-.gray{
-    padding: 13.5px;
-    background-color: gray;
-    font-size: 32px;
-    color: white
-}
+.red{background-color: red;}
+.gray{background-color: gray;}

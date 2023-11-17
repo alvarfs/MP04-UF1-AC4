@@ -1,0 +1,26 @@
+.container{
+    border: solid black;
+    display: inline-grid;
+    grid-template-columns: 128px 128px 64px 128px 128px;
+    grid-template-rows: 88px 64px 46px 88px;
+    grid-template-areas: 
+        "R1 B1 B1 O1 O1"
+        "R1 O2 W1 W1 R2"
+        "W2 O2 W1 W1 R2"
+        "W2 R3 R3 B2 R2"
+        ;
+}
+
+.container div{
+    border: solid black;
+}
+
+.red1{grid-area: R1; background-color: red;}
+.red2{grid-area: R2; background-color: red;}
+.red3{grid-area: R3; background-color: red;}
+.blue1{grid-area: B1; background-color: cyan;}
+.blue2{grid-area: B2; background-color: cyan;}
+.white1{grid-area: W1; background-color: white;}
+.white2{grid-area: W2; background-color: white;}
+.orange1{grid-area: O1; background-color: orange;}
+.orange2{grid-area: O2; background-color: orange;}
